@@ -10,11 +10,11 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-gradient-to-r from-[hsl(var(--adobe-red))] to-[hsl(var(--adobe-orange))] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">AH</span>
+                <span className="text-white font-bold text-sm">DM</span>
               </div>
               <div>
-                <h3 className="font-bold">Adobe Hackathon</h3>
-                <p className="text-xs text-muted-foreground">AI Document Intelligence</p>
+                <h3 className="font-bold">DocuMind AI</h3>
+                <p className="text-xs text-muted-foreground">Smart Document Intelligence</p>
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -91,10 +91,10 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border/50 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 Adobe India Hackathon Project. Built with passion for innovation.
+            © 2024 DocuMind AI. Built with passion for intelligent document processing.
           </p>
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
-            Made with <Heart className="w-4 h-4 text-red-500 fill-current" /> for Adobe Hackathon
+            Made with <Heart className="w-4 h-4 text-red-500 fill-current" /> for smart document solutions
           </div>
         </div>
       </div>

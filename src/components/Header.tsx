@@ -8,11 +8,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-gradient-to-r from-[hsl(var(--adobe-red))] to-[hsl(var(--adobe-orange))] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">AH</span>
+              <span className="text-white font-bold text-sm">DM</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold">Adobe Hackathon</h1>
-              <p className="text-xs text-muted-foreground">AI Document Intelligence</p>
+              <h1 className="text-xl font-bold">DocuMind AI</h1>
+              <p className="text-xs text-muted-foreground">Smart Document Intelligence</p>
             </div>
           </div>
           

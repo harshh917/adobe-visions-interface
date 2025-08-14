@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 text-white/90 text-sm">
                 <Zap className="w-4 h-4" />
-                Adobe India Hackathon 2024
+                DocuMind AI Platform
               </div>
               
               <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
