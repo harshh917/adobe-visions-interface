@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
@@ -18,6 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        adobe: "bg-gradient-to-r from-[hsl(var(--adobe-red))] to-[hsl(var(--adobe-orange))] text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_20px_40px_-10px_hsl(var(--adobe-red)_/_0.3)]",
+        hero: "bg-gradient-to-r from-[hsl(var(--adobe-red))] via-[hsl(var(--adobe-orange))] to-[hsl(var(--adobe-purple))] text-white font-bold shadow-2xl hover:shadow-[0_25px_50px_-12px_hsl(var(--adobe-red)_/_0.4)] transition-all duration-500 hover:scale-110 relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-white/0 before:via-white/10 before:to-white/0 before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-700",
+        glass: "backdrop-blur-lg bg-white/10 border border-white/20 text-white hover:bg-white/20 transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
